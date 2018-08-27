@@ -1,0 +1,152 @@
+<html>
+<head>
+<script src="https://code.highcharts.com/highcharts.js"></script>
+<script src="https://code.highcharts.com/modules/data.js"></script>
+<script src="https://code.highcharts.com/modules/drilldown.js"></script>
+
+<div id="prihodPoTrgovinama" style="min-width: 300px; min-width: 600px; height: 400px; margin: 0 auto; float: left"></div>
+</head>
+<body>
+<script language="JavaScript">
+// Create the chart
+Highcharts.chart('prihodPoTrgovinama', {
+    chart: {
+        type: 'pie'
+    },
+    title: {
+        text: 'Polugodišnji izvještaj prihoda naših trgovina, 2018'
+    },
+    plotOptions: {
+        series: {
+            dataLabels: {
+                enabled: true,
+                format: '{point.name}: {point.y:.1f}%'
+            }
+        }
+    },
+    tooltip: {
+        headerFormat: '<span style="font-size:11px">{series.name}</span><br>',
+        pointFormat: '<span style="color:{point.color}">{point.name}</span>: <b>{point.y:.2f}%</b> of total<br/>'
+    },
+
+    "series": [
+        {
+            "name": "Trgovine",
+            "colorByPoint": true,
+            "data": [
+                {
+                    "name": "Trgovina1",
+                    "y": 60,
+                    "drilldown": "t1"
+                },
+                {
+                    "name": "Trgovina2",
+                    "y": 15,
+                    "drilldown": "t2"
+                },
+                {
+                    "name": "Trgovina3",
+                    "y": 25,
+                    "drilldown": "t3"
+                }
+            ]
+        }
+    ],
+    "drilldown": {
+        "series": [
+            {
+                "name": "Trgovina1",
+                "id": "t1",
+                "data": [
+                    [
+                        "Siječanj",
+                        20
+                    ],
+                    [
+                        "Veljača",
+                        13
+                    ],
+                    [
+                        "Ožujak",
+                        7
+                    ],
+                    [
+                        "Travanj",
+                        12
+                    ],
+                    [
+                        "Svibanj",
+                        9
+                    ],
+                    [
+                        "Lipanj",
+                        9
+                    ]
+                ]
+            },
+            {
+                "name": "Trgovina2",
+                "id": "t2",
+                "data": [
+                    [
+                        "Siječanj",
+                        2
+                    ],
+                    [
+                        "Veljača",
+                        4.3
+                    ],
+                    [
+                        "Ožujak",
+                        3.8
+                    ],
+                    [
+                        "Travanj",
+                        1.4
+                    ],
+                    [
+                        "Svibanj",
+                        1.8
+                    ],
+                    [
+                        "Lipanj",
+                        1.7
+                    ]
+                ]
+            },
+            {
+                "name": "Trgovina3",
+                "id": "t3",
+                "data": [
+                    [
+                        "Siječanj",
+                        0
+                    ],
+                    [
+                        "Veljača",
+                        0
+                    ],
+                    [
+                        "Ožujak",
+                        12
+                    ],
+                    [
+                        "Travanj",
+                        6
+                    ],
+                    [
+                        "Svibanj",
+                        3.5
+                    ],
+                    [
+                        "Lipanj",
+                        3.5
+                    ]
+                ]
+            }
+        ]
+    }
+});
+</script>
+</body>
+</html>

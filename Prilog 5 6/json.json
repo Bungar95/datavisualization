@@ -1,0 +1,44 @@
+[{
+                "vrijednostOS": "0.191",
+                "vrijednostRI": "0.205",
+                "vrijednostZG": "0.245",
+                "mjernaJedinica":"mg\/m3",
+                "vrijeme": "2018-08-01 T00:00:00+02:00"
+            }, {
+                "vrijednostOS": "0.2",
+                "vrijednostRI": "0.2",
+                "vrijednostZG": "0.234",
+                "mjernaJedinica":"mg\/m3",
+                "vrijeme": "2018-08-02 T00:00:00+02:00"
+            }, {
+                "vrijednostOS": "0.226",
+                "vrijednostRI": "0.196",
+                "vrijednostZG": "0.234",
+                "mjernaJedinica":"mg\/m3",
+                "vrijeme": "2018-08-03 T00:00:00+02:00"
+            }, {
+                "vrijednostOS": "0.245",
+                "vrijednostRI": "0.2",
+                "vrijednostZG": "0.24",
+                "mjernaJedinica":"mg\/m3",
+                "vrijeme": "2018-08-04 T00:00:00+02:00"
+            }, {
+                "vrijednostOS": "0.257",
+                "vrijednostRI": "0.2",
+                "vrijednostZG": "0.256",
+                "mjernaJedinica":"mg\/m3",
+                "vrijeme": "2018-08-05 T00:00:00+02:00"
+            }, {
+                "vrijednostOS": "0.226",
+                "vrijednostRI": "0.209",
+                "vrijednostZG": "0.256",
+                "mjernaJedinica":"mg\/m3",
+                "vrijeme": "2018-08-06 T00:00:00+02:00"
+            }, {
+                "vrijednostOS": "0.255",
+                "vrijednostRI": "0.209",
+                "vrijednostZG": "0.277",
+                "mjernaJedinica":"mg\/m3",
+                "vrijeme": "2018-08-07 T00:00:00+02:00"
+            }]
+
