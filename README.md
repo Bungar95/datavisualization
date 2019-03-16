@@ -1,5 +1,5 @@
-# datavisualization
-Prilozi korišteni u završnom radu "Korištenje JavaScripta kao tehnika vizualizacije podataka"
+# Završni rad
++Prilozi korišteni u završnom radu "Korištenje JavaScripta kao tehnika vizualizacije podataka"
 
 Za priloge 5. i 6., 7. i 8. te 9. i 10. potreban je lokalni server.
 
